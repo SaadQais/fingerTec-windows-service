@@ -9,7 +9,7 @@ namespace FingerTecWindowsService.Models.DAL
 {
     public class MyDbContext : DbContext
     {
-        public MyDbContext() : base("name=HRModels")
+        public MyDbContext() : base("name=MyModels")
         {
         }
 
